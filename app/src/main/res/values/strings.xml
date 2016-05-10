@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Chips</string>
+    <string name="click_here">Click here for best movies</string>
+    <string name="best_movies">Best Movies</string>
+</resources>
