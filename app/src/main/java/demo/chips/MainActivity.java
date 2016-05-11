@@ -31,8 +31,8 @@ public class MainActivity extends BaseActivity {
         public void onClick(View v) {
             tvBestMovies.setText(R.string.best_movies);
             tvBestMovies.setOnClickListener(null);
-            LinearLayout layoutContainer = (LinearLayout) findViewById(R.id.ll_container);
-            inflateLayout(layoutContainer, new ArrayList<>(Arrays.asList(bestMovies)));
+            LinearLayout layoutContainer = (LinearLayout) findViewById(R.id.ll_container); //Container layout with vertical orientation
+            inflateLayout(layoutContainer, new ArrayList<>(Arrays.asList(bestMovies))); //inflating container layout with chips
         }
     }
 }

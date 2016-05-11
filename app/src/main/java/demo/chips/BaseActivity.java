@@ -14,6 +14,10 @@ import java.util.ArrayList;
  * Created by aditya.amartya on 5/10/2016.
  */
 public class BaseActivity extends AppCompatActivity {
+
+    /*
+    Call this function to inflate texts in the form of chips
+     */
     protected void inflateLayout(LinearLayout layoutContainer, ArrayList<String> data) {
 
         /*
